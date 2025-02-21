@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.ImagineForge.Radion.ExampleMod"
+      "com.github.ImagineForge.Radion.Radion"
     ]
   },
   "depends": {

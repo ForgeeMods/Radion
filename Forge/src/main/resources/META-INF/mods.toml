@@ -59,11 +59,6 @@ mandatory = true
 versionRange = "${forge_minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
-[[dependencies.'${mod_id}']]
-modId = "fabric_api"
-mandatory = true
-# This version range declared a minimum of the current forgified fabric api version up to any later version
-versionRange = "[${forge_fabric_version},)"
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
