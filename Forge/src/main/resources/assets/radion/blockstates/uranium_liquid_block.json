@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "radion:block/uranium_liquid_block"
+    }
+  }
+}

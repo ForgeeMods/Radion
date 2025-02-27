@@ -41,12 +41,9 @@ subprojects {
                 forge_version_range          : forge_version_range,
                 loader_version_range         : loader_version_range,
 
-                fabric_version               : fabric_version,
-                fabric_loader_version        : fabric_loader_version,
-
                 mod_id                       : mod_id,
                 mod_name                     : mod_name,
-                mod_version                  : findProperty('mod_version') ?: project.jar.archiveVersion,
+                mod_version                  : version,
                 mod_license                  : mod_license,
                 mod_author                   : mod_author,
                 mod_credits                  : mod_credits,

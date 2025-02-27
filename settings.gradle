@@ -6,10 +6,6 @@ pluginManagement {
             url = 'https://maven.minecraftforge.net/'
         }
         maven {
-            name = 'Fabric'
-            url = 'https://maven.fabricmc.net/'
-        }
-        maven {
             name = 'Sponge Snapshots'
             url = 'https://repo.spongepowered.org/repository/maven-public/'
         }
@@ -17,4 +13,4 @@ pluginManagement {
 }
 
 rootProject.name = 'Radion'
-include("Common", "Fabric", "Forge")
+include("Forge")

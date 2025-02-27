@@ -1,0 +1,23 @@
+package com.github.ImagineForge.Radion.registry.item;
+
+import com.github.ImagineForge.Radion.Constants;
+import com.github.ImagineForge.Radion.registry.CreativeTabs;
+import com.github.ImagineForge.Radion.registry.fluid.RegisterFluids;
+import net.minecraft.world.item.BucketItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+public class RegisterItems {
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Constants.MOD_ID);
+
+    public static final RegistryObject<Item> URANIUM_LIQUID_BUCKET = ITEMS.register("uranium_liquid_bucket",
+            () -> new BucketItem(RegisterFluids.URANIUM_FLUID_SOURCE, new Item.Properties().tab(CreativeTabs.RADION_TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
+}
