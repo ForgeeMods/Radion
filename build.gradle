@@ -52,7 +52,7 @@ subprojects {
                 mod_issue_tracker_url        : mod_issue_tracker_url,
         ]
         inputs.properties replaceProperties
-        filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/mods.toml', '*.mixins.json']) {
+        filesMatching(['pack.mcmeta', 'META-INF/mods.toml']) {
             expand replaceProperties
         }
     }
