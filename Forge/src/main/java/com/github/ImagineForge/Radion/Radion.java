@@ -1,10 +1,12 @@
 package com.github.ImagineForge.Radion;
 
 import com.github.ImagineForge.Radion.config.CommonConfig;
+import com.github.ImagineForge.Radion.registry.capabilities.IRadionEnergyStorage;
 import com.github.ImagineForge.Radion.registry.fluid.RegisterFluids;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
