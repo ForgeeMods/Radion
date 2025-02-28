@@ -23,11 +23,9 @@ public class RegisterItems {
     public static final RegistryObject<Item> URANIUM_INGOT = ITEMS.register("uranium_ingot",
             () -> new Item(new Item.Properties().tab(CreativeTabs.RADION_TAB)));
 
-    public static final RegistryObject<Item> URANIUM_BLOCK_ITEM = ITEMS.register("uranium_block",
-            () -> new BlockItem(RegisterBlocks.URANIUM_BLOCK.get(), new Item.Properties().tab(CreativeTabs.RADION_TAB)));
-
     public static final RegistryObject<Item> URANIUM_DIOXIDE_DUST = ITEMS.register("uranium_dioxide_dust",
             () -> new UraniumDioxideDust(new Item.Properties().tab(CreativeTabs.RADION_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
