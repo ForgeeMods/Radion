@@ -70,5 +70,5 @@ Radion is licensed under the **CC0 1.0 Universal** License. See the [LICENSE](LI
 
 ## Credits
 
-- **Developers:** **ImagineForgee** and **RealCatDev**
+- **Developers:** **ImagineForgee**, **RealCatDev** and **CyberWord**
 - **Special Thanks:** To the Minecraft modding community and the contributors to Forge and Fabric.
