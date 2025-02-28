@@ -1,0 +1,8 @@
+{
+  "item.radion.uranium_ingot": "Uranium Ingot",
+  "item.radion.uranium_liquid_bucket": "Liquid Uranium Bucket",
+
+  "block.radion.uranium_block": "Block of Uranium",
+
+  "itemGroup.radion_tab": "Radion"
+}
