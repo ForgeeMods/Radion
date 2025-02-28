@@ -33,6 +33,7 @@ public class RegistryForge {
         // Register Items
         ITEMS.register("uranium_ingot", Items.URANIUM_INGOT);
         ITEMS.register("uranium_block_item", Items.URANIUM_BLOCK_ITEM);
+        ITEMS.register("uranium_dioxide_dust", Items.URANIUM_DIOXIDE_DUST);
         ITEMS.register(modEventBus);
         RegisterItems.register(modEventBus);
 

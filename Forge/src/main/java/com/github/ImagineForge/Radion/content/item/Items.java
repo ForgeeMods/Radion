@@ -22,4 +22,12 @@ public class Items {
         }
         return uraniumBlockItemInstance;
     };
+
+    private static Item uraniumDioxiteDustInstance;
+    public static final Supplier<Item> URANIUM_DIOXIDE_DUST = () -> {
+        if (uraniumDioxiteDustInstance == null) {
+            uraniumDioxiteDustInstance = new Item(new Item.Properties().tab(CreativeTabs.RADION_TAB));
+        }
+        return uraniumDioxiteDustInstance;
+    };
 }
