@@ -1,7 +1,7 @@
 package com.github.ImagineForge.Radion;
 
 import com.github.ImagineForge.Radion.content.block.UraniumBlock;
-import com.github.ImagineForge.Radion.content.item.items;
+import com.github.ImagineForge.Radion.content.item.Items;
 import com.github.ImagineForge.Radion.registry.fluid.RegisterFluidTypes;
 import com.github.ImagineForge.Radion.registry.fluid.RegisterFluids;
 import com.github.ImagineForge.Radion.registry.item.RegisterItems;
@@ -31,8 +31,8 @@ public class RegistryForge {
 
 
         // Register Items
-        ITEMS.register("uranium_ingot", items.URANIUM_INGOT);
-        ITEMS.register("uranium_block_item", items.URANIUM_BLOCK_ITEM);
+        ITEMS.register("uranium_ingot", Items.URANIUM_INGOT);
+        ITEMS.register("uranium_block_item", Items.URANIUM_BLOCK_ITEM);
         ITEMS.register(modEventBus);
         RegisterItems.register(modEventBus);
 

@@ -6,7 +6,7 @@ import net.minecraft.world.item.Item;
 
 import java.util.function.Supplier;
 
-public class items {
+public class Items {
     private static Item uraniumIngotInstance;
     public static final Supplier<Item> URANIUM_INGOT = () -> {
         if (uraniumIngotInstance == null) {
