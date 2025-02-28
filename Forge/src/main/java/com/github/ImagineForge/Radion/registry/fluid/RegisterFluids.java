@@ -3,6 +3,7 @@ package com.github.ImagineForge.Radion.registry.fluid;
 import com.github.ImagineForge.Radion.Constants;
 import com.github.ImagineForge.Radion.RegistryForge;
 import com.github.ImagineForge.Radion.content.fluid.types.UraniumFluidType;
+import com.github.ImagineForge.Radion.registry.blocks.RegisterBlocks;
 import com.github.ImagineForge.Radion.registry.item.RegisterItems;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
@@ -24,7 +25,7 @@ public class RegisterFluids {
             ()-> new ForgeFlowingFluid.Flowing(RegisterFluids.URANIUM_FLUID_PROPERTIES));
 
     public static final ForgeFlowingFluid.Properties URANIUM_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
-            RegisterFluidTypes.URANIUM_FLUID_TYPE,  URANIUM_FLUID_SOURCE, URANIUM_FLUID_FLOWING).slopeFindDistance(5).levelDecreasePerBlock(5).block(RegistryForge.URANIUM_LIQUID_BLOCK).bucket(RegisterItems.URANIUM_LIQUID_BUCKET);
+            RegisterFluidTypes.URANIUM_FLUID_TYPE,  URANIUM_FLUID_SOURCE, URANIUM_FLUID_FLOWING).slopeFindDistance(5).levelDecreasePerBlock(5).block(RegisterBlocks.URANIUM_LIQUID_BLOCK).bucket(RegisterItems.URANIUM_LIQUID_BUCKET);
 
 
     public static void register(IEventBus eventBus){
