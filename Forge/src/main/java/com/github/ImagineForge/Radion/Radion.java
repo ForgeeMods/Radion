@@ -17,7 +17,7 @@ public class Radion {
     private final CommonConfig config = new CommonConfig();
 
     public Radion() {
-        new RegistryForge();
+        RegistryForge.init();
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CommonConfig.SPEC);
 
         MinecraftForge.EVENT_BUS.register(this);

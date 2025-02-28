@@ -23,12 +23,11 @@ public class RegistryForge {
     public static final RegistryObject<LiquidBlock> URANIUM_LIQUID_BLOCK = BLOCKS.register("uranium_liquid_block",
             () -> new LiquidBlock(RegisterFluids.URANIUM_FLUID_SOURCE, BlockBehaviour.Properties.copy(Blocks.WATER)));
 
-    public RegistryForge() {
+    public static void init() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         RegisterFluids.register(modEventBus);
         RegisterFluidTypes.register(modEventBus);
-
 
         // Register Items
         ITEMS.register("uranium_ingot", Items.URANIUM_INGOT);
@@ -38,8 +37,6 @@ public class RegistryForge {
         RegisterItems.register(modEventBus);
 
         // Register Blocks
-
-
         BLOCKS.register("uranium_block", UraniumBlock.URANIUM_BLOCK);
         BLOCKS.register(modEventBus);
     }
