@@ -1,6 +1,7 @@
 package com.github.ImagineForge.Radion.registry.item;
 
 import com.github.ImagineForge.Radion.Constants;
+import com.github.ImagineForge.Radion.content.item.UraniumDioxideDust;
 import com.github.ImagineForge.Radion.registry.CreativeTabs;
 import com.github.ImagineForge.Radion.registry.blocks.RegisterBlocks;
 import com.github.ImagineForge.Radion.registry.fluid.RegisterFluids;
@@ -26,7 +27,7 @@ public class RegisterItems {
             () -> new BlockItem(RegisterBlocks.URANIUM_BLOCK.get(), new Item.Properties().tab(CreativeTabs.RADION_TAB)));
 
     public static final RegistryObject<Item> URANIUM_DIOXIDE_DUST = ITEMS.register("uranium_dioxide_dust",
-            () -> new Item(new Item.Properties().tab(CreativeTabs.RADION_TAB)));
+            () -> new UraniumDioxideDust(new Item.Properties().tab(CreativeTabs.RADION_TAB)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
