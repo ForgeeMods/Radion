@@ -1,9 +1,11 @@
 {
   "item.radion.uranium_ingot": "Uranium Ingot",
   "item.radion.uranium_liquid_bucket": "Liquid Uranium Bucket",
-  "item.radion.uranium_dioxide_dust": "Uranium Dioxide Dust",
+  "item.radion.uranium_dioxide_dust": "Uranium(IV) Oxide Dust",
 
   "block.radion.uranium_block": "Block of Uranium",
 
-  "itemGroup.radion_tab": "Radion"
+  "itemGroup.radion_tab": "Radion",
+
+  "fluid_type.radion.uranium_fluid": "Liquid Uranium"
 }
