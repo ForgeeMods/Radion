@@ -1,14 +1,14 @@
 package com.github.ImagineForge.Radion.registry.item;
 
 import com.github.ImagineForge.Radion.Constants;
+import com.github.ImagineForge.Radion.content.armor.HazmatSuitItem;
+import com.github.ImagineForge.Radion.content.armor.HazmatSuitMaterial;
 import com.github.ImagineForge.Radion.content.item.UraniumDioxideDust;
 import com.github.ImagineForge.Radion.registry.CreativeTabs;
 import com.github.ImagineForge.Radion.registry.blocks.RegisterBlocks;
 import com.github.ImagineForge.Radion.registry.fluid.RegisterFluids;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.BucketItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -25,6 +25,9 @@ public class RegisterItems {
 
     public static final RegistryObject<Item> URANIUM_DIOXIDE_DUST = ITEMS.register("uranium_dioxide_dust",
             () -> new UraniumDioxideDust(new Item.Properties().tab(CreativeTabs.RADION_TAB)));
+
+    public static final RegistryObject<Item> HAZMAT_SUIT_HELMET = ITEMS.register("hazmat_helmet",
+            () -> new HazmatSuitItem(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeTabs.RADION_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
