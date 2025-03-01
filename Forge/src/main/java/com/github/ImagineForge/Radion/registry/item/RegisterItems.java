@@ -28,6 +28,7 @@ public class RegisterItems {
 
     public static final RegistryObject<Item> URANIUM_DIOXIDE_DUST = ITEMS.register("uranium_dioxide_dust",
             () -> new UraniumDioxideDust(new Item.Properties().tab(CreativeTabs.RADION_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
