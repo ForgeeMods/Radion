@@ -31,6 +31,14 @@ public class RegisterBlocks {
         () -> new Block(BlockBehaviour.Properties.of(URANIUM_MATERIAL_DATA.getMaterial())),
         CreativeTabs.RADION_TAB);
 
+    public static final RegistryObject<Block> URANIUM_ORE = registerBlock("uranium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(URANIUM_MATERIAL_DATA.getMaterial())),
+            CreativeTabs.RADION_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_URANIUM_ORE = registerBlock("deepslate_uranium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(URANIUM_MATERIAL_DATA.getMaterial())),
+            CreativeTabs.RADION_TAB);
+
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<? extends T> supplier, CreativeModeTab tab) {
         RegistryObject<T> block = BLOCKS.register(name, supplier);
         RegisterItems.ITEMS.register(name,

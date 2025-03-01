@@ -3,6 +3,8 @@
   "item.radion.uranium_liquid_bucket": "Wiadro płynnego uranu",
 
   "block.radion.uranium_block": "Blok uranu",
+  "block.radion.uranium_ore": "Ruda Uranu",
+  "block.radion.deepslate_uranium_ore": "Ciemna Ruda Uranu",
 
   "itemGroup.radion_tab": "Radion"
 }

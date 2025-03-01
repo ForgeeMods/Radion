@@ -3,6 +3,8 @@
   "item.radion.uranium_liquid_bucket": "Liquid Uranium Bucket",
 
   "block.radion.uranium_block": "Block of Uranium",
+  "block.radion.uranium_ore": "Uranium Ore",
+  "block.radion.deepslate_uranium_ore": "Deepslate Uranium Ore",
 
   "itemGroup.radion_tab": "Radion"
 }
