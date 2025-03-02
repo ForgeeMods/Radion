@@ -68,10 +68,16 @@ minecraft {
 
 sourceSets.main.resources.srcDir 'src/generated/resources'
 
-dependencies {
-    minecraft "net.minecraftforge:forge:${rootProject.minecraft_version}-${rootProject.forge_version}"
+repositories {
+    maven {
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+    }
 }
 
+dependencies {
+    minecraft "net.minecraftforge:forge:${rootProject.minecraft_version}-${rootProject.forge_version}"
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-1.19:3.1.19")
+}
 
 jar.finalizedBy('reobfJar')
 

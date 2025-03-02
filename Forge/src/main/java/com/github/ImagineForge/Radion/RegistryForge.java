@@ -1,6 +1,8 @@
 package com.github.ImagineForge.Radion;
 
 import com.github.ImagineForge.Radion.registry.blocks.RegisterBlocks;
+import com.github.ImagineForge.Radion.registry.features.RegisterConfiguredFeatures;
+import com.github.ImagineForge.Radion.registry.features.RegisterPlacedFeatures;
 import com.github.ImagineForge.Radion.registry.fluid.RegisterFluidTypes;
 import com.github.ImagineForge.Radion.registry.fluid.RegisterFluids;
 import com.github.ImagineForge.Radion.registry.item.RegisterItems;
@@ -23,5 +25,8 @@ public class RegistryForge {
         RegisterItems.register(modEventBus);
 
         RegisterBlocks.register(modEventBus);
+
+        RegisterConfiguredFeatures.register(modEventBus);
+        RegisterPlacedFeatures.register(modEventBus);
     }
 }
