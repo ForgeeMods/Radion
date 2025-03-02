@@ -1,10 +1,15 @@
 {
   "item.radion.uranium_ingot": "Sztabka uranu",
   "item.radion.uranium_liquid_bucket": "Wiadro płynnego uranu",
+  "item.radion.uranium_dioxide_dust": "Pył Tlenku Uranu (IV)",
+  "item.radion.uranium_trioxide_dust": "Pył Tlenku Uranu (VI)",
+  "item.radion.triuranium_octoxide_dust": "Pył Tlenku Uranu (V,VI) Dust",
 
   "block.radion.uranium_block": "Blok uranu",
   "block.radion.uranium_ore": "Ruda Uranu",
   "block.radion.deepslate_uranium_ore": "Ciemna Ruda Uranu",
 
-  "itemGroup.radion_tab": "Radion"
+  "itemGroup.radion_tab": "Radion",
+
+  "fluid_type.radion.uranium_fluid": "Płynny uran"
 }

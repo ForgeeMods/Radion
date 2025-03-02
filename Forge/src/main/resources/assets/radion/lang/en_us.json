@@ -1,10 +1,15 @@
 {
   "item.radion.uranium_ingot": "Uranium Ingot",
   "item.radion.uranium_liquid_bucket": "Liquid Uranium Bucket",
+  "item.radion.uranium_dioxide_dust": "Uranium (IV) Oxide Dust",
+  "item.radion.uranium_trioxide_dust": "Uranium (VI) Oxide Dust",
+  "item.radion.triuranium_octoxide_dust": "Uranium (V,VI) Oxide Dust",
 
   "block.radion.uranium_block": "Block of Uranium",
   "block.radion.uranium_ore": "Uranium Ore",
   "block.radion.deepslate_uranium_ore": "Deepslate Uranium Ore",
 
-  "itemGroup.radion_tab": "Radion"
+  "itemGroup.radion_tab": "Radion",
+
+  "fluid_type.radion.uranium_fluid": "Liquid Uranium"
 }
